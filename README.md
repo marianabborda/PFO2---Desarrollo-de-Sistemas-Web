@@ -62,53 +62,67 @@ Debes generar la estructura completa utilizando HTML5 semántico, CSS3 moderno (
 [FORMATO DE SALIDA]
 Crea y escribe de forma autónoma todos los archivos necesarios en el espacio de trabajo actual. Al finalizar, confirma la estructura creada y asegura que el proyecto está listo para ser abierto en cualquier navegador.
 
+```
+
 ### 🌟 1. Primer Agente: Cursor (Agencia Free Time)
-* **Entorno:** Cursor Editor (Composer)
-* **Modelo de Lenguaje:** `Composer 2.5 Fast`
+
+- **Entorno:** Cursor Editor (Composer)
+- **Modelo de Lenguaje:** `Composer 2.5 Fast`
 
 ### Captura - Cabecera y Sección principal
 
-<p style="text-align: center;">
-  <img src="screenshots/cursor1.jpg" width="400">
-</p>
+![Cursor - Cabecera](./screenshots/cursor1.jpg)
 
 ### Captura - Sección: Sobre Nosotros
 
-<p style="text-align: center;">
-  <img src="screenshots/cursor2.jpg" width="400">
-</p>
-
+![Cursor - Sobre Nosotros](./screenshots/cursor2.jpg)
 
 ### Captura - Sección: Destinos Destacados
 
-<p style="text-align: center;">
-  <img src="screenshots/cursor3.jpg" width="400">
-</p>
+![Cursor - Destinos](./screenshots/cursor3.jpg)
 
 ### Captura - Sección: Testimonios
 
-<p style="text-align: center;">
-  <img src="screenshots/cursor4.jpg" width="400">
-</p>
+![Cursor - Testimonios](./screenshots/cursor4.jpg)
 
 ### Captura - Sección: Formulario de Contacto
 
-<p style="text-align: center;">
-  <img src="screenshots/cursor5.jpg" width="400">
-</p>
+![Cursor - Formulario](./screenshots/cursor5.jpg)
 
 ### Captura - Sección: Pie de Página
 
-<p style="text-align: center;">
-  <img src="screenshots/cursor6.jpg" width="400">
-</p>
-
+![Cursor - Footer](./screenshots/cursor6.jpg)
 
 ---
 
 ### 🌟 2. Segundo Agente: Windsurf (Agencia Free Time)
-* **Entorno:** Windsurf Editor (Cascade)
-* **Modelo de Lenguaje:** `SWE-1.6 Slow / Code AI`
+
+- **Entorno:** Windsurf Editor (Cascade)
+- **Modelo de Lenguaje:** `SWE-1.6 Slow / Code AI`
+
+### Captura - Cabecera y Sección principal
+
+![Cursor - Cabecera](./screenshots/windsurf1.jpg)
+
+### Captura - Sección: Sobre Nosotros
+
+![Cursor - Sobre Nosotros](./screenshots/windsurf2.jpg)
+
+### Captura - Sección: Destinos Destacados
+
+![Cursor - Destinos](./screenshots/windsurf3.jpg)
+
+### Captura - Sección: Testimonios
+
+![Cursor - Testimonios](./screenshots/windsurf4.jpg)
+
+### Captura - Sección: Formulario de Contacto
+
+![Cursor - Formulario](./screenshots/windsurf5.jpg)
+
+### Captura - Sección: Pie de Página
+
+![Cursor - Footer](./screenshots/windsurf6.jpg)
 
 ### Captura - Cabecera y Sección principal
 
@@ -121,7 +135,6 @@ Crea y escribe de forma autónoma todos los archivos necesarios en el espacio de
 <p style="text-align: center;">
   <img src="screenshots/windsurf2.jpg" width="400">
 </p>
-
 
 ### Captura - Sección: Destinos Destacados
 
@@ -146,6 +159,3 @@ Crea y escribe de forma autónoma todos los archivos necesarios en el espacio de
 <p style="text-align: center;">
   <img src="screenshots/windsurf6.jpg" width="400">
 </p>
-
-
-```
