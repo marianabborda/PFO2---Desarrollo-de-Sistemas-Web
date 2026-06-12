@@ -102,60 +102,24 @@ Crea y escribe de forma autónoma todos los archivos necesarios en el espacio de
 
 ### Captura - Cabecera y Sección principal
 
-![Cursor - Cabecera](./screenshots/windsurf1.jpg)
+![Windsurf - Cabecera](./screenshots/windsurf1.jpg)
 
 ### Captura - Sección: Sobre Nosotros
 
-![Cursor - Sobre Nosotros](./screenshots/windsurf2.jpg)
+![Windsurf - Sobre Nosotros](./screenshots/windsurf2.jpg)
 
 ### Captura - Sección: Destinos Destacados
 
-![Cursor - Destinos](./screenshots/windsurf3.jpg)
+![Windsurf - Destinos](./screenshots/windsurf3.jpg)
 
 ### Captura - Sección: Testimonios
 
-![Cursor - Testimonios](./screenshots/windsurf4.jpg)
+![Windsurf - Testimonios](./screenshots/windsurf4.jpg)
 
 ### Captura - Sección: Formulario de Contacto
 
-![Cursor - Formulario](./screenshots/windsurf5.jpg)
+![Windsurf - Formulario](./screenshots/windsurf5.jpg)
 
 ### Captura - Sección: Pie de Página
 
-![Cursor - Footer](./screenshots/windsurf6.jpg)
-
-### Captura - Cabecera y Sección principal
-
-<p style="text-align: center;">
-  <img src="screenshots/windsurf1.jpg" width="400">
-</p>
-
-### Captura - Sección: Sobre Nosotros
-
-<p style="text-align: center;">
-  <img src="screenshots/windsurf2.jpg" width="400">
-</p>
-
-### Captura - Sección: Destinos Destacados
-
-<p style="text-align: center;">
-  <img src="screenshots/windsurf3.jpg" width="400">
-</p>
-
-### Captura - Sección: Testimonios
-
-<p style="text-align: center;">
-  <img src="screenshots/windsurf4.jpg" width="400">
-</p>
-
-### Captura - Sección: Formulario de Contacto
-
-<p style="text-align: center;">
-  <img src="screenshots/windsurf5.jpg" width="400">
-</p>
-
-### Captura - Sección: Pie de Página
-
-<p style="text-align: center;">
-  <img src="screenshots/windsurf6.jpg" width="400">
-</p>
+![Windsurf - Footer](./screenshots/windsurf6.jpg)
