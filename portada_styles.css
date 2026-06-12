@@ -1,0 +1,258 @@
+/* ==========================================================================
+   PORTADA DE ACCESOS - ESTILOS COMPATIBLES CON LA ESTÉTICA DE LOS AGENTES
+   ========================================================================== */
+
+:root {
+    --bg-main: #0f172a;        /* Azul pizarra muy oscuro para fondo general */
+    --bg-card: #1e293b;        /* Gris azulado oscuro para las tarjetas */
+    --text-primary: #f8fafc;   /* Blanco azulado para máxima legibilidad */
+    --text-secondary: #94a3b8; /* Gris suave para descripciones y datos */
+    --accent-blue: #1e3a8a;    /* Azul marino profundo */
+    --accent-cyan: #06b6d4;    /* Turquesa/Cian fresco */
+    --accent-orange: #f97316;  /* Naranja vibrante para CTA */
+    --border-color: #334155;   /* Gris de separación sutil */
+    --font-header: 'Montserrat', sans-serif;
+    --font-body: 'Poppins', sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    line-height: 1.6;
+}
+
+.portada-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabecera de la Portada */
+.portada-header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.badge {
+    background-color: rgba(6, 182, 212, 0.1);
+    color: var(--accent-cyan);
+    border: 1px solid rgba(6, 182, 212, 0.3);
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.portada-header h1 {
+    font-family: var(--font-header);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: -0.5px;
+    margin-bottom: 0.5rem;
+}
+
+.portada-header .subtitle {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* Grilla de Accesos Directos (Layout Limpio) */
+.portada-grid {
+    display: block;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+    .portada-grid {
+        display: table;
+        table-layout: fixed;
+        border-collapse: separate;
+        border-spacing: 1.5rem 0;
+    }
+}
+
+/* Tarjetas (Cards) */
+.portada-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .portada-card {
+        display: table-cell;
+        vertical-align: top;
+        margin-bottom: 0;
+    }
+}
+
+.portada-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-cyan);
+    box-shadow: 0 10px 25px -5px rgba(6, 182, 212, 0.15);
+}
+
+/* Íconos de las Tarjetas */
+.card-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem auto;
+    font-size: 1.5rem;
+    background-color: rgba(248, 250, 252, 0.05);
+    color: var(--text-primary);
+}
+
+.card-prompt .card-icon {
+    color: var(--text-secondary);
+    background-color: rgba(148, 163, 184, 0.1);
+}
+
+.icon-cursor {
+    color: var(--accent-cyan);
+    background-color: rgba(6, 182, 212, 0.1);
+}
+
+.icon-windsurf {
+    color: var(--accent-orange);
+    background-color: rgba(249, 115, 22, 0.1);
+}
+
+/* Textos dentro de la Tarjeta */
+.portada-card h2 {
+    font-family: var(--font-header);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.portada-card p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    min-height: 70px;
+}
+
+/* Etiquetas de los Agentes */
+.agent-tag {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    background-color: rgba(248, 250, 252, 0.1);
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    color: var(--text-primary);
+}
+
+/* Especificaciones Técnicas (Requisito de la consigna) */
+.specs {
+    background-color: rgba(15, 23, 42, 0.4);
+    border-radius: 8px;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    font-size: 0.85rem;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.spec-item {
+    margin-bottom: 0.3rem;
+    color: var(--text-secondary);
+}
+
+.spec-item:last-child {
+    margin-bottom: 0;
+}
+
+.spec-item strong {
+    color: var(--text-primary);
+}
+
+/* Botones con transiciones fluidas */
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    cursor: pointer;
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
+.btn-prompt {
+    background-color: transparent;
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+
+.btn-prompt:hover {
+    background-color: rgba(248, 250, 252, 0.05);
+}
+
+.card-agent:nth-of-type(2) .btn-agent {
+    background-color: var(--accent-cyan);
+    color: #0f172a;
+}
+
+.card-agent:nth-of-type(2) .btn-agent:hover {
+    background-color: #22d3ee;
+}
+
+.card-agent:nth-of-type(3) .btn-agent {
+    background-color: var(--accent-orange);
+    color: #ffffff;
+}
+
+.card-agent:nth-of-type(3) .btn-agent:hover {
+    background-color: #fb923c;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* Pie de Página */
+.portada-footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Time - Tu agencia de viajes vacacionales. Descubre destinos increíbles y vive experiencias inolvidables.">
+    <title>Free Time - Tu Agencia de Viajes</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">
+                <i class="ri-plane-fill"></i>
+                <span>Free Time</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#destinos" class="nav-link">Destinos</a></li>
+                <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="btn-reservas">
+                    <i class="ri-suitcase-line"></i>
+                    Mis Reservas
+                </button>
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <i class="ri-menu-line"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Tu próximo destino te espera</h1>
+                <p class="hero-subtitle">Descubre lugares mágicos, vive aventuras inolvidables y crea memorias que durarán toda la vida. Tu viaje soñado está a un clic de distancia.</p>
+                
+                <div class="search-box">
+                    <div class="search-field">
+                        <i class="ri-map-pin-line"></i>
+                        <input type="text" placeholder="Origen">
+                    </div>
+                    <div class="search-field">
+                        <i class="ri-compass-3-line"></i>
+                        <input type="text" placeholder="Destino">
+                    </div>
+                    <div class="search-field">
+                        <i class="ri-calendar-line"></i>
+                        <input type="date">
+                    </div>
+                    <button class="btn-search">
+                        <i class="ri-search-line"></i>
+                        Buscar Viajes
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">¿Por qué elegir Free Time?</h2>
+            <p class="section-subtitle">Más que una agencia de viajes, somos tus compañeros de aventura</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="ri-customer-service-2-line"></i>
+                    </div>
+                    <h3 class="feature-title">Soporte 24/7</h3>
+                    <p class="feature-description">Estamos disponibles las 24 horas para resolver cualquier duda o emergencia durante tu viaje.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="ri-money-dollar-circle-line"></i>
+                    </div>
+                    <h3 class="feature-title">Precios Garantizados</h3>
+                    <p class="feature-description">Te ofrecemos los mejores precios del mercado con garantía de precio bajo.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="ri-earth-line"></i>
+                    </div>
+                    <h3 class="feature-title">Destinos Exclusivos</h3>
+                    <p class="feature-description">Accede a lugares únicos y experiencias que no encontrarás en ninguna otra parte.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section id="destinos" class="destinations">
+        <div class="container">
+            <h2 class="section-title">Destinos Destacados</h2>
+            <p class="section-subtitle">Explora nuestros paquetes más populares</p>
+            
+            <div class="destinations-grid">
+                <!-- Card 1: Playa del Carmen -->
+                <div class="destination-card">
+                    <div class="destination-image" style="background: linear-gradient(135deg, #06b6d4 0%, #1e3a8a 100%);">
+                        <div class="destination-overlay">
+                            <span class="destination-badge">Popular</span>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <h3 class="destination-title">Playa del Carmen</h3>
+                        <p class="destination-location">
+                            <i class="ri-map-pin-2-line"></i>
+                            Riviera Maya, México
+                        </p>
+                        <p class="destination-description">Disfruta de playas paradisíacas, ruinas mayanas y la vibrante vida nocturna del Caribe mexicano.</p>
+                        <div class="destination-footer">
+                            <span class="destination-price">Desde $899 USD</span>
+                            <button class="btn-package">Ver Paquete</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 2: Circuito Europeo -->
+                <div class="destination-card">
+                    <div class="destination-image" style="background: linear-gradient(135deg, #1e3a8a 0%, #06b6d4 100%);">
+                        <div class="destination-overlay">
+                            <span class="destination-badge">Oferta</span>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <h3 class="destination-title">Circuito Europeo</h3>
+                        <p class="destination-location">
+                            <i class="ri-map-pin-2-line"></i>
+                            París, Roma, Barcelona
+                        </p>
+                        <p class="destination-description">Recorre las ciudades más emblemáticas de Europa en un viaje inolvidable lleno de cultura y gastronomía.</p>
+                        <div class="destination-footer">
+                            <span class="destination-price">Desde $1,499 USD</span>
+                            <button class="btn-package">Ver Paquete</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 3: Bariloche -->
+                <div class="destination-card">
+                    <div class="destination-image" style="background: linear-gradient(135deg, #06b6d4 0%, #1e3a8a 100%);">
+                        <div class="destination-overlay">
+                            <span class="destination-badge">Temporada</span>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <h3 class="destination-title">Bariloche</h3>
+                        <p class="destination-location">
+                            <i class="ri-map-pin-2-line"></i>
+                            Patagonia Argentina
+                        </p>
+                        <p class="destination-description">Montañas nevadas, lagos cristalinos y el mejor chocolate del mundo te esperan en la Patagonia.</p>
+                        <div class="destination-footer">
+                            <span class="destination-price">Desde $650 USD</span>
+                            <button class="btn-package">Ver Paquete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Lo que dicen nuestros viajeros</h2>
+            <p class="section-subtitle">Experiencias reales de personas como tú</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">"Increíble experiencia en Cancún gracias a Free Time. Todo estuvo perfectamente organizado, desde los traslados hasta los tours. ¡Volveremos a viajar con ellos!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="ri-user-line"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">María González</h4>
+                            <span class="author-trip">Viaje a Cancún</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">"El circuito por Europa fue un sueño hecho realidad. Los hoteles fueron excelentes y el itinerario muy bien planificado. 100% recomendado."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="ri-user-line"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Carlos Rodríguez</h4>
+                            <span class="author-trip">Tour por Europa</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">"Bariloche en invierno fue mágico. Free Time se encargó de todo y nosotros solo disfrutamos. El equipo de soporte siempre estuvo disponible."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="ri-user-line"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Ana Martínez</h4>
+                            <span class="author-trip">Viaje a Bariloche</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">¿Listo para tu próxima aventura?</h2>
+                    <p class="section-subtitle">Solicita tu cotización personalizada o suscríbete para recibir ofertas exclusivas</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="ri-mail-send-line"></i>
+                            <span>info@freetime.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ri-phone-line"></i>
+                            <span>+54 11 1234-5678</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ri-map-pin-line"></i>
+                            <span>Buenos Aires, Argentina</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="destino">Destino de interés</label>
+                        <select id="destino" name="destino" required>
+                            <option value="">Selecciona un destino</option>
+                            <option value="playa-carmen">Playa del Carmen</option>
+                            <option value="europa">Circuito Europeo</option>
+                            <option value="bariloche">Bariloche</option>
+                            <option value="otro">Otro destino</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje (opcional)</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos sobre tu viaje soñado..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-submit">
+                        <i class="ri-send-plane-fill"></i>
+                        Enviar Solicitud
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="ri-plane-fill"></i>
+                        <span>Free Time</span>
+                    </div>
+                    <p class="footer-description">Tu agencia de viajes de confianza. Creamos experiencias inolvidables desde 2010.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#destinos">Destinos</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Política de Cookies</a></li>
+                        <li><a href="#">Libro de Quejas</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Métodos de Pago</h4>
+                    <div class="payment-methods">
+                        <div class="payment-icon">
+                            <i class="ri-visa-line"></i>
+                        </div>
+                        <div class="payment-icon">
+                            <i class="ri-mastercard-line"></i>
+                        </div>
+                        <div class="payment-icon">
+                            <i class="ri-amex-line"></i>
+                        </div>
+                        <div class="payment-icon">
+                            <i class="ri-paypal-line"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Free Time. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

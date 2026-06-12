@@ -1,0 +1,97 @@
+# Práctica Formativa: Evaluación y Comparación de Agentes de IA en Desarrollo Frontend
+
+Este repositorio contiene el proyecto desarrollado para la **Práctica Formativa Obligatoria 2 - Individual** de la carrera de **Desarrollo de Sistemas Web**. El objetivo principal del trabajo práctico consiste en evaluar, comparar y documentar las capacidades de generación de código autónomo de dos entornos basados en agentes de Inteligencia Artificial (Cursor y Windsurf) mediante la creación de una Landing Page para una agencia de viajes vacacionales utilizando el mismo prompt maestro.
+
+---
+
+## 👤 Datos del Estudiante
+
+* **Nombre y Apellido:** Mariana B. Borda
+* **Institución:** Instituto de Formación Técnica Superior N° 29 (IFTS 29)
+* **Materia:** Desarrollo de Sistemas Web
+* **Comisión: Lunes**
+* **Año:** 2026
+
+---
+
+## 🚀 Despliegue (Deploy Unificado)
+
+El proyecto completo se encuentra unificado detrás de una interfaz de acceso (portada principal) que distribuye los accesos obligatorios solicitados en la consigna. Podés acceder al sitio en producción a través del siguiente enlace de Vercel:
+
+👉 **[Link al Deploy Unificado en Vercel](https://tu-proyecto-vercel.vercel.app)** 
+
+Al ingresar, la portada te permitirá navegar hacia:
+1.  El texto plano del prompt utilizado.
+2.  La Landing Page del Primer Agente (Cursor - Agencia Free Time).
+3.  La Landing Page del Segundo Agente (Windsurf - Agencia Free Time).
+
+---
+
+## 📝 Prompt Utilizado
+
+A continuación se detalla el **Prompt Maestro** inyectado de forma idéntica en ambos agentes de IA para evaluar la fidelidad en la interpretación de los requisitos de diseño, paleta de colores y UX/UI:
+
+```text
+[ROL Y OBJETIVO]
+Actúa como un Ingeniero de Software Frontend Senior y un experto en UX/UI especializado en la industria del turismo y conversión web. Tu objetivo es crear de forma completamente autónoma una Landing Page moderna, responsiva, sumamente atractiva y profesional para una Agencia de Viajes Vacacionales, basada estrictamente en los lineamientos de este prompt.
+
+[CONTEXTO DEL PRODUCTO]
+La Landing Page pertenece a "Free Time", una agencia enfocada en la venta de paquetes turísticos, escapadas y vacaciones soñadas. El diseño debe inspirar deseo de viajar, relajación y aventura.
+- Estética visual: Limpia, moderna y sumamente visual. 
+- Paleta de colores oficial: Fondo principal blanco o gris muy claro (#f8fafc) para legibilidad, azul marino profundo (#1e3a8a) para textos principales y estructura, azul cian/turquesa (#06b6d4) para frescura, y un color de acento naranja vibrante (#f97316) para botones de llamada a la acción (CTA) y ofertas destacadas.
+
+[ESTRUCTURA Y REQUISITOS DE LA LANDING PAGE]
+Debes generar la estructura completa utilizando HTML5 semántico, CSS3 moderno (con transiciones fluidas) y JavaScript estándar para interactividad visual. Todo debe consolidarse en el directorio actual (index.html, styles.css y script.js si es necesario). Se deben incluir las siguientes secciones obligatorias:
+
+1. Cabecera (Header): Logotipo ficticio de la agencia, menú de navegación responsivo (Inicio, Destinos, Testimonios, Contacto) y un botón discreto de "Mis Reservas".
+2. Sección Principal (Hero Section): Un título de alto impacto emocional (ej. "Tu próximo destino te espera") que incluya el nombre de la empresa, un subtítulo que invite a la acción, un buscador/simulador visual de viajes (Campos estéticos: Origen, Destino, Fecha) y un botón CTA principal en color naranja vibrante.
+3. Sobre Nosotros / Por qué elegirnos: Sección con íconos que destaque los beneficios de la agencia (ej. Soporte 24/7, Precios Garantizados, Destinos Exclusivos).
+4. Destinos Destacados (Servicios/Características): Una cuadrícula (Grid) de al menos 3 tarjetas (Cards) de destinos (ej. Playa del Carmen, Circuito Europeo, Bariloche). Cada tarjeta debe simular una imagen atractiva (vía placeholder de alta calidad o CSS estilizado), título del destino, precio base simulado y un botón de "Ver Paquete".
+5. Testimonios: Una sección estética que muestre reseñas de viajeros felices, incluyendo sus nombres, una calificación de 5 estrellas visual y un breve comentario de su experiencia.
+6. Formulario de Contacto / Suscripción: Maquetado visual de un formulario para solicitar cotización personalizada o suscribirse al newsletter de ofertas. (Campos: Nombre, Email, Destino de interés).
+7. Pie de Página (Footer): Enlaces legales, métodos de pago aceptados (íconos visuales de tarjetas), derechos de autor con el nombre de la empresa y enlaces a redes sociales.
+
+[RESTRICCIONES TÉCNICAS Y DE DISEÑO]
+- El diseño debe ser 100% responsivo y Mobile-First (optimizado perfectamente para celulares y computadoras).
+- Utiliza fuentes tipográficas modernas de Google Fonts que evoquen turismo y claridad (por ejemplo, 'Poppins' o 'Montserrat') integradas por <link>.
+- Para los íconos de viaje (aviones, hoteles, maletas, estrellas), utiliza una librería externa mediante CDN como FontAwesome o Remix Icon.
+- No utilices texto "Lorem Ipsum". Genera nombres de destinos, descripciones y testimonios realistas en español orientados al turismo.
+- Asegúrate de que los botones tengan efectos de hover suaves y profesionales.
+
+[FORMATO DE SALIDA]
+Crea y escribe de forma autónoma todos los archivos necesarios en el espacio de trabajo actual. Al finalizar, confirma la estructura creada y asegura que el proyecto está listo para ser abierto en cualquier navegador.
+
+### 🌟 1. Primer Agente: Cursor (Agencia Free Time)
+* **Entorno:** Cursor Editor (Composer)
+* **Modelo de Lenguaje:** `Composer 2.5 Fast`
+
+![Cabecera y Sección principal- Cursor](screenshots/cursor1.jpg)
+
+![Sobre Nosotros- Cursor](screenshots/cursor2.jpg)
+
+![Destinos Destacados- Cursor](screenshots/cursor3.jpg)
+
+![Testimonios- Cursor](screenshots/cursor4.jpg)
+
+![Formulario de Contacto- Cursor](screenshots/cursor5.jpg)
+
+![Pie de Página- Cursor](screenshots/cursor6.jpg)
+
+
+---
+
+### 🌟 2. Segundo Agente: Windsurf (Agencia Free Time)
+* **Entorno:** Windsurf Editor (Cascade)
+* **Modelo de Lenguaje:** `SWE-1.6 Slow / Code AI`
+
+![Cabecera y Sección principal- Cursor](screenshots/windsurf1.jpg)
+
+![Sobre Nosotros- Cursor](screenshots/windsurf2.jpg)
+
+![Destinos Destacados- Cursor](screenshots/windsurf3.jpg)
+
+![Testimonios- Cursor](screenshots/windsurf4.jpg)
+
+![Formulario de Contacto- Cursor](screenshots/windsurf5.jpg)
+
+![Pie de Página- Cursor](screenshots/windsurf6.jpg)

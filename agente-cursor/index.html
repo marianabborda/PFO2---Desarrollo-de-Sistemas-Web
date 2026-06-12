@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free Time — Agencia de viajes vacacionales. Paquetes turísticos, escapadas y vacaciones soñadas con precios garantizados.">
+  <title>Free Time | Tu próximo destino te espera</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="inicio">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Free Time - Inicio">
+        <span class="logo__icon"><i class="fa-solid fa-clock"></i></span>
+        <span class="logo__text">Free <strong>Time</strong></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="nav" id="mainNav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link nav__link--active">Inicio</a></li>
+          <li><a href="#destinos" class="nav__link">Destinos</a></li>
+          <li><a href="#testimonios" class="nav__link">Testimonios</a></li>
+          <li><a href="#contacto" class="nav__link">Contacto</a></li>
+        </ul>
+        <a href="#contacto" class="btn btn--outline btn--sm header__reservas">
+          <i class="fa-solid fa-suitcase-rolling"></i>
+          Mis Reservas
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <div class="hero__text">
+          <span class="hero__badge">
+            <i class="fa-solid fa-plane-departure"></i>
+            Más de 15 años creando recuerdos inolvidables
+          </span>
+          <h1 class="hero__title">Tu próximo destino te espera</h1>
+          <p class="hero__subtitle">
+            Descubre playas paradisíacas, ciudades históricas y aventuras únicas.
+            Nosotros diseñamos el viaje perfecto para ti.
+          </p>
+        </div>
+
+        <form class="search-card" id="searchForm" aria-label="Buscador de viajes">
+          <div class="search-card__header">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span>Planifica tu escapada</span>
+          </div>
+          <div class="search-card__fields">
+            <div class="search-card__field">
+              <label for="origen">
+                <i class="fa-solid fa-location-dot"></i>
+                Origen
+              </label>
+              <input type="text" id="origen" name="origen" placeholder="Ciudad de salida" required>
+            </div>
+            <div class="search-card__field">
+              <label for="destino">
+                <i class="fa-solid fa-map-location-dot"></i>
+                Destino
+              </label>
+              <input type="text" id="destino" name="destino" placeholder="¿A dónde quieres ir?" required>
+            </div>
+            <div class="search-card__field">
+              <label for="fecha">
+                <i class="fa-solid fa-calendar-days"></i>
+                Fecha
+              </label>
+              <input type="date" id="fecha" name="fecha" required>
+            </div>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            <i class="fa-solid fa-compass"></i>
+            Buscar paquetes
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Por qué elegirnos -->
+    <section class="benefits section" id="beneficios">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Sobre nosotros</span>
+          <h2 class="section__title">¿Por qué elegir Free Time?</h2>
+          <p class="section__desc">
+            Somos tu aliado en cada paso del viaje. Desde la inspiración hasta el regreso a casa,
+            cuidamos cada detalle para que solo te preocupes por disfrutar.
+          </p>
+        </div>
+
+        <div class="benefits__grid">
+          <article class="benefit-card">
+            <div class="benefit-card__icon">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <h3 class="benefit-card__title">Soporte 24/7</h3>
+            <p class="benefit-card__text">
+              Asistencia personalizada antes, durante y después de tu viaje.
+              Siempre hay alguien listo para ayudarte.
+            </p>
+          </article>
+
+          <article class="benefit-card">
+            <div class="benefit-card__icon">
+              <i class="fa-solid fa-tags"></i>
+            </div>
+            <h3 class="benefit-card__title">Precios Garantizados</h3>
+            <p class="benefit-card__text">
+              Las mejores tarifas del mercado sin costos ocultos.
+              Si encuentras un precio menor, lo igualamos.
+            </p>
+          </article>
+
+          <article class="benefit-card">
+            <div class="benefit-card__icon">
+              <i class="fa-solid fa-gem"></i>
+            </div>
+            <h3 class="benefit-card__title">Destinos Exclusivos</h3>
+            <p class="benefit-card__text">
+              Acceso a experiencias únicas y rutas que no encontrarás
+              en agencias convencionales.
+            </p>
+          </article>
+
+          <article class="benefit-card">
+            <div class="benefit-card__icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3 class="benefit-card__title">Viaje Seguro</h3>
+            <p class="benefit-card__text">
+              Seguros de viaje incluidos y protocolos de seguridad
+              verificados en cada destino.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destinos destacados -->
+    <section class="destinations section" id="destinos">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Explora el mundo</span>
+          <h2 class="section__title">Destinos destacados</h2>
+          <p class="section__desc">
+            Paquetes seleccionados con vuelos, hospedaje y experiencias incluidas.
+            Elige tu próxima aventura.
+          </p>
+        </div>
+
+        <div class="destinations__grid">
+          <article class="destination-card">
+            <div class="destination-card__image destination-card__image--playa">
+              <span class="destination-card__badge">Más vendido</span>
+            </div>
+            <div class="destination-card__body">
+              <div class="destination-card__meta">
+                <span><i class="fa-solid fa-sun"></i> 7 noches</span>
+                <span><i class="fa-solid fa-star"></i> 4.9</span>
+              </div>
+              <h3 class="destination-card__title">Playa del Carmen</h3>
+              <p class="destination-card__desc">
+                Arena blanca, aguas turquesa y la magia del Caribe mexicano.
+                Todo incluido en resort frente al mar.
+              </p>
+              <div class="destination-card__footer">
+                <div class="destination-card__price">
+                  <span class="destination-card__from">Desde</span>
+                  <span class="destination-card__amount">$24,990 <small>MXN</small></span>
+                </div>
+                <a href="#contacto" class="btn btn--primary btn--sm">Ver Paquete</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="destination-card">
+            <div class="destination-card__image destination-card__image--europa">
+              <span class="destination-card__badge destination-card__badge--accent">Oferta</span>
+            </div>
+            <div class="destination-card__body">
+              <div class="destination-card__meta">
+                <span><i class="fa-solid fa-landmark"></i> 12 noches</span>
+                <span><i class="fa-solid fa-star"></i> 4.8</span>
+              </div>
+              <h3 class="destination-card__title">Circuito Europeo</h3>
+              <p class="destination-card__desc">
+                París, Roma y Barcelona en un solo viaje inolvidable.
+                Guías en español y traslados incluidos.
+              </p>
+              <div class="destination-card__footer">
+                <div class="destination-card__price">
+                  <span class="destination-card__from">Desde</span>
+                  <span class="destination-card__amount">$58,500 <small>MXN</small></span>
+                </div>
+                <a href="#contacto" class="btn btn--primary btn--sm">Ver Paquete</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="destination-card">
+            <div class="destination-card__image destination-card__image--bariloche">
+            </div>
+            <div class="destination-card__body">
+              <div class="destination-card__meta">
+                <span><i class="fa-solid fa-mountain"></i> 5 noches</span>
+                <span><i class="fa-solid fa-star"></i> 4.7</span>
+              </div>
+              <h3 class="destination-card__title">Bariloche</h3>
+              <p class="destination-card__desc">
+                Lagos cristalinos, chocolate artesanal y naturaleza patagónica.
+                Ideal para parejas y familias aventureras.
+              </p>
+              <div class="destination-card__footer">
+                <div class="destination-card__price">
+                  <span class="destination-card__from">Desde</span>
+                  <span class="destination-card__amount">$18,750 <small>MXN</small></span>
+                </div>
+                <a href="#contacto" class="btn btn--primary btn--sm">Ver Paquete</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonials section" id="testimonios">
+      <div class="container">
+        <div class="section__header section__header--light">
+          <span class="section__eyebrow section__eyebrow--light">Experiencias reales</span>
+          <h2 class="section__title section__title--light">Lo que dicen nuestros viajeros</h2>
+          <p class="section__desc section__desc--light">
+            Miles de familias y aventureros han confiado en nosotros para vivir sus mejores vacaciones.
+          </p>
+        </div>
+
+        <div class="testimonials__grid">
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 de 5 estrellas">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              "Nuestra luna de miel en Playa del Carmen fue perfecta. Free Time se encargó de todo
+              y el resort superó nuestras expectativas. ¡Ya estamos planeando el segundo viaje!"
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">MG</div>
+              <div>
+                <cite class="testimonial-card__name">María González</cite>
+                <span class="testimonial-card__trip">Playa del Carmen · Feb 2025</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 de 5 estrellas">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              "El circuito por Europa fue una experiencia de película. Los hoteles, los tours y la
+              atención del equipo de Free Time fueron impecables de principio a fin."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">CR</div>
+              <div>
+                <cite class="testimonial-card__name">Carlos Ramírez</cite>
+                <span class="testimonial-card__trip">Circuito Europeo · Oct 2024</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 de 5 estrellas">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              "Viajamos en familia a Bariloche y fue mágico. Los niños amaron el lago y nosotros
+              valoramos la organización y el soporte 24/7 que nos brindaron."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">LP</div>
+              <div>
+                <cite class="testimonial-card__name">Laura Pérez</cite>
+                <span class="testimonial-card__trip">Bariloche · Ene 2025</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact section" id="contacto">
+      <div class="container contact__inner">
+        <div class="contact__info">
+          <span class="section__eyebrow">Contáctanos</span>
+          <h2 class="section__title">Solicita tu cotización personalizada</h2>
+          <p class="section__desc">
+            Cuéntanos tu destino soñado y te enviaremos una propuesta a medida
+            con las mejores opciones y promociones vigentes.
+          </p>
+
+          <ul class="contact__details">
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <span>800-FREE-TIME (373384)</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <span>hola@freetime.com.mx</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-clock"></i>
+              <span>Lun – Vie: 9:00 – 20:00 · Sáb: 10:00 – 14:00</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm" aria-label="Formulario de contacto">
+          <h3 class="contact-form__title">Recibe ofertas exclusivas</h3>
+          <p class="contact-form__subtitle">Suscríbete y obtén hasta 15% de descuento en tu primer paquete.</p>
+
+          <div class="contact-form__field">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+          </div>
+
+          <div class="contact-form__field">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+          </div>
+
+          <div class="contact-form__field">
+            <label for="destino-interes">Destino de interés</label>
+            <select id="destino-interes" name="destino-interes" required>
+              <option value="" disabled selected>Selecciona un destino</option>
+              <option value="playa-del-carmen">Playa del Carmen</option>
+              <option value="circuito-europeo">Circuito Europeo</option>
+              <option value="bariloche">Bariloche</option>
+              <option value="otro">Otro destino</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full">
+            <i class="fa-solid fa-paper-plane"></i>
+            Solicitar cotización
+          </button>
+
+          <p class="contact-form__privacy">
+            Al enviar aceptas recibir comunicaciones de Free Time. Puedes darte de baja en cualquier momento.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#inicio" class="logo logo--footer">
+            <span class="logo__icon"><i class="fa-solid fa-clock"></i></span>
+            <span class="logo__text">Free <strong>Time</strong></span>
+          </a>
+          <p class="footer__tagline">
+            Transformamos sueños en destinos. Tu agencia de confianza para vacaciones inolvidables.
+          </p>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer__links">
+          <h4>Enlaces legales</h4>
+          <ul>
+            <li><a href="#">Aviso de privacidad</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Política de cancelación</a></li>
+            <li><a href="#">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__payments">
+          <h4>Métodos de pago</h4>
+          <div class="footer__payment-icons">
+            <span title="Visa"><i class="fa-brands fa-cc-visa"></i></span>
+            <span title="Mastercard"><i class="fa-brands fa-cc-mastercard"></i></span>
+            <span title="American Express"><i class="fa-brands fa-cc-amex"></i></span>
+            <span title="PayPal"><i class="fa-brands fa-cc-paypal"></i></span>
+            <span title="Apple Pay"><i class="fa-brands fa-cc-apple-pay"></i></span>
+          </div>
+          <p class="footer__secure">
+            <i class="fa-solid fa-lock"></i>
+            Pagos 100% seguros y encriptados
+          </p>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 Free Time Agencia de Viajes. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast" role="alert" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
