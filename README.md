@@ -6,11 +6,11 @@ Este repositorio contiene el proyecto desarrollado para la **Práctica Formativa
 
 ## 👤 Datos del Estudiante
 
-* **Nombre y Apellido:** Mariana B. Borda
-* **Institución:** Instituto de Formación Técnica Superior N° 29 (IFTS 29)
-* **Materia:** Desarrollo de Sistemas Web
-* **Comisión: Lunes**
-* **Año:** 2026
+- **Nombre y Apellido:** Mariana B. Borda
+- **Institución:** Instituto de Formación Técnica Superior N° 29 (IFTS 29)
+- **Materia:** Desarrollo de Sistemas Web
+- **Comisión: Lunes**
+- **Año:** 2026
 
 ---
 
@@ -18,9 +18,10 @@ Este repositorio contiene el proyecto desarrollado para la **Práctica Formativa
 
 El proyecto completo se encuentra unificado detrás de una interfaz de acceso (portada principal) que distribuye los accesos obligatorios solicitados en la consigna. Podés acceder al sitio en producción a través del siguiente enlace de Vercel:
 
-👉 **[Link al Deploy Unificado en Vercel](https://tu-proyecto-vercel.vercel.app)** 
+👉 **[Link al Deploy Unificado en Vercel](https://tu-proyecto-vercel.vercel.app)**
 
 Al ingresar, la portada te permitirá navegar hacia:
+
 1.  El texto plano del prompt utilizado.
 2.  La Landing Page del Primer Agente (Cursor - Agencia Free Time).
 3.  La Landing Page del Segundo Agente (Windsurf - Agencia Free Time).
@@ -37,7 +38,7 @@ Actúa como un Ingeniero de Software Frontend Senior y un experto en UX/UI espec
 
 [CONTEXTO DEL PRODUCTO]
 La Landing Page pertenece a "Free Time", una agencia enfocada en la venta de paquetes turísticos, escapadas y vacaciones soñadas. El diseño debe inspirar deseo de viajar, relajación y aventura.
-- Estética visual: Limpia, moderna y sumamente visual. 
+- Estética visual: Limpia, moderna y sumamente visual.
 - Paleta de colores oficial: Fondo principal blanco o gris muy claro (#f8fafc) para legibilidad, azul marino profundo (#1e3a8a) para textos principales y estructura, azul cian/turquesa (#06b6d4) para frescura, y un color de acento naranja vibrante (#f97316) para botones de llamada a la acción (CTA) y ofertas destacadas.
 
 [ESTRUCTURA Y REQUISITOS DE LA LANDING PAGE]
@@ -65,17 +66,42 @@ Crea y escribe de forma autónoma todos los archivos necesarios en el espacio de
 * **Entorno:** Cursor Editor (Composer)
 * **Modelo de Lenguaje:** `Composer 2.5 Fast`
 
-![Cabecera y Sección principal- Cursor](screenshots/cursor1.jpg)
+### Captura - Cabecera y Sección principal
 
-![Sobre Nosotros- Cursor](screenshots/cursor2.jpg)
+<p style="text-align: center;">
+  <img src="screenshots/cursor1.jpg" width="400">
+</p>
 
-![Destinos Destacados- Cursor](screenshots/cursor3.jpg)
+### Captura - Sección: Sobre Nosotros
 
-![Testimonios- Cursor](screenshots/cursor4.jpg)
+<p style="text-align: center;">
+  <img src="screenshots/cursor2.jpg" width="400">
+</p>
 
-![Formulario de Contacto- Cursor](screenshots/cursor5.jpg)
 
-![Pie de Página- Cursor](screenshots/cursor6.jpg)
+### Captura - Sección: Destinos Destacados
+
+<p style="text-align: center;">
+  <img src="screenshots/cursor3.jpg" width="400">
+</p>
+
+### Captura - Sección: Testimonios
+
+<p style="text-align: center;">
+  <img src="screenshots/cursor4.jpg" width="400">
+</p>
+
+### Captura - Sección: Formulario de Contacto
+
+<p style="text-align: center;">
+  <img src="screenshots/cursor5.jpg" width="400">
+</p>
+
+### Captura - Sección: Pie de Página
+
+<p style="text-align: center;">
+  <img src="screenshots/cursor6.jpg" width="400">
+</p>
 
 
 ---
@@ -84,14 +110,42 @@ Crea y escribe de forma autónoma todos los archivos necesarios en el espacio de
 * **Entorno:** Windsurf Editor (Cascade)
 * **Modelo de Lenguaje:** `SWE-1.6 Slow / Code AI`
 
-![Cabecera y Sección principal- Cursor](screenshots/windsurf1.jpg)
+### Captura - Cabecera y Sección principal
 
-![Sobre Nosotros- Cursor](screenshots/windsurf2.jpg)
+<p style="text-align: center;">
+  <img src="screenshots/windsurf1.jpg" width="400">
+</p>
 
-![Destinos Destacados- Cursor](screenshots/windsurf3.jpg)
+### Captura - Sección: Sobre Nosotros
 
-![Testimonios- Cursor](screenshots/windsurf4.jpg)
+<p style="text-align: center;">
+  <img src="screenshots/windsurf2.jpg" width="400">
+</p>
 
-![Formulario de Contacto- Cursor](screenshots/windsurf5.jpg)
 
-![Pie de Página- Cursor](screenshots/windsurf6.jpg)
+### Captura - Sección: Destinos Destacados
+
+<p style="text-align: center;">
+  <img src="screenshots/windsurf3.jpg" width="400">
+</p>
+
+### Captura - Sección: Testimonios
+
+<p style="text-align: center;">
+  <img src="screenshots/windsurf4.jpg" width="400">
+</p>
+
+### Captura - Sección: Formulario de Contacto
+
+<p style="text-align: center;">
+  <img src="screenshots/windsurf5.jpg" width="400">
+</p>
+
+### Captura - Sección: Pie de Página
+
+<p style="text-align: center;">
+  <img src="screenshots/windsurf6.jpg" width="400">
+</p>
+
+
+```
