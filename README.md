@@ -18,7 +18,7 @@ Este repositorio contiene el proyecto desarrollado para la **Práctica Formativa
 
 El proyecto completo se encuentra unificado detrás de una interfaz de acceso (portada principal) que distribuye los accesos obligatorios solicitados en la consigna. Podés acceder al sitio en producción a través del siguiente enlace de Vercel:
 
-👉 **[Link al Deploy Unificado en Vercel](https://tu-proyecto-vercel.vercel.app)**
+👉 **[Link al Deploy Unificado en Vercel](https://pfo-2-desarrollo-de-sistemas-web.vercel.app)**
 
 Al ingresar, la portada te permitirá navegar hacia:
 
